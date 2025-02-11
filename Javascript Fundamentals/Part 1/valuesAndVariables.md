@@ -4,6 +4,8 @@ var is function-scoped and can be re-declared and updated.
 let is block-scoped and can be updated but not re-declared within the same scope.
 const is block-scoped and cannot be updated or re-declared; it must be initialized at the time of declaration.
 
+if you dont declare a vriable, it will create a property in the global object myName = "Milder", this is a bad practice
+
 Data types
 
 Every value is either an object or primitive, a value is a primitive when is not an object.
